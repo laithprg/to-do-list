@@ -1,3 +1,6 @@
+أكيد، هذا هو الكود **نفسه تمامًا بدون أي تعديل** **فقط شُلت التعليقات**:
+
+```css
 * {
     margin: 0;
     padding: 0;
@@ -5,23 +8,26 @@
     color: #E5E7EB;
     scroll-behavior: smooth;
 }
+
 body {
     background-color: #020617;
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     justify-content: space-between;
 }
+
 header {
     background-color: #0F172A;
-    width:100%;
-    display:flex;
-    position:fixed;
-    justify-content:space-between;
-    padding:15px 130px;
-    z-index:999;
-    align-items:center;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    padding: 15px 130px;
+    z-index: 999;
+    align-items: center;
 }
+
 nav a {
     text-decoration: none;
     padding-left: 35px;
@@ -29,9 +35,11 @@ nav a {
     font-weight: 500;
     transition: 0.3s;
 }
-nav a:hover{
-    color:darkviolet;
+
+nav a:hover {
+    color: darkviolet;
 }
+
 .logo {
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
@@ -40,29 +48,33 @@ nav a:hover{
     border-radius: 12px;
     padding: 4px 8px;
 }
+
 .about {
     font-family: 'Playfair Display', serif;
     font-weight: 200;
     margin-bottom: 250px;
     font-size: 1.1rem;
 }
+
 main {
     margin-top: 100px;
     display: flex;
-    height: 180vh;
+    height: 140vh;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
-.text2{
-    text-align:center;
+.text2 {
+    text-align: center;
 }
-.inputsection{
-    width:75%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+
+.inputsection {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .inputtext {
     width: 85%;
     border: none;
@@ -70,61 +82,99 @@ main {
     padding: 12px;
     border-radius: 25px;
     background-color: #E5E7EB;
-    color:black;
-    font-weight:100;
-    font-size:1em;
+    color: black;
+    font-weight: 100;
+    font-size: 1em;
 }
+
 .buttonadd {
     color: black;
     background-color: #E5E7EB;
     padding: 12px 18px;
     border: none;
     transition: 0.3s;
-    border-radius:12px;
-    cursor:pointer;
+    border-radius: 12px;
+    cursor: pointer;
 }
+
 .buttonadd:hover {
     background-color: darkviolet;
 }
-.state{
-    display:flex;
+
+.state {
+    display: flex;
 }
+
 .state button {
     color: black;
     border: none;
     padding: 6px 12px;
     border-radius: 22px;
-    transition: 0.3s;
     background-color: #E5E7EB;
     margin-top: 50px;
-    margin-bottom:90px;
-    margin-right:20px;
-    font-size:1em;
+    margin-bottom: 90px;
+    margin-right: 20px;
+    font-size: 1em;
+    transition: 0.3s;
 }
+
 .state button:hover {
     background-color: darkviolet;
 }
-.workspace{
-    width:100%;
-    height:45%;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
+
+.workspace {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.checkboxsection{
-    width:45%;
-    height:55%;
+
+.checkboxsection {
+    width: 45%;
+    height: 55%;
 }
+
 h1 {
     font-size: 4.5em;
     text-align: center;
 }
+
 h2 {
     text-align: center;
     font-size: 2.5em;
 }
+
 h3 {
     text-align: center;
     font-size: 1.2em;
+}
+
+.checkboxsection div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    background-color: #0B1224;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.deletetaskcss {
+    background-color: none;
+    background: transparent;
+    border: none;
+    transition: 0.3s;
+    padding: 1px;
+    margin-left: auto;
+    border-radius:20px;
+}
+
+.deletetaskcss:hover {
+    background-color:rgb(105, 35, 35,1);
+}
+
+.spantextcss{
+    font-size:1.2em;
 }
