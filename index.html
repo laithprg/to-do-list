@@ -4,7 +4,7 @@
     <title>Do your list tasks</title>
     <meta charset="utf-8"/>
     <title>my project</title>
-    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
 </head>
 <body>
     <header>
@@ -28,28 +28,19 @@
         <div class="workspace">
 
         <section class="inputsection">
-            <input class="inputtext" type="text"/>
-            <button class="buttonadd">+</button>
+            <input class="inputtext" id="inputText" autofocus type="text"/>
+            <button class="buttonadd" id="buttonaddid">+</button>
         </section>
         <section class="state">
             <button>All</button>
             <button>Active</button>
             <button>Completed</button>
         </section>
-        <section class="checkboxsection" >
-            <input type="checkbox"/>
+        <section class="checkboxsection" id="taskarea" >
+            
         </section>
         </div>
-
-
     </main>
-
-
-
-
-
+    <script src="index.js"></script>
 </body>
-
 </html>
-
-
