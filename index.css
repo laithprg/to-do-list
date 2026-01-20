@@ -1,4 +1,4 @@
-﻿* {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +8,7 @@
 body {
     background-color: #020617;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center; 
     justify-content: space-between;
 }
@@ -18,14 +18,14 @@ header {
     display:flex;
     position:fixed;
     justify-content:space-between;
-    padding:10px 110px;
-    z-index:999;/*عشان ما ييجي عنصر يطلع فوقها*/
+    padding:15px 130px;
+    z-index:999;
     align-items:center;
 }
 nav a {
-    text-decoration: none; /*بتشيل الخط اللي تحت الرابط*/
-    padding-left: 30px;
-    font-size: 1.1em; /*تعتمد على حجم الخط للعنصر الاب*/
+    text-decoration: none;
+    padding-left: 35px;
+    font-size: 1.3em;
     font-weight: 500;
     transition: 0.3s;
 }
@@ -37,49 +37,50 @@ nav a:hover{
     text-decoration: none;
     font-weight: 700;
     background-color: darkviolet;
-    border-radius: 10px;
-    padding: 2px 5px;
+    border-radius: 12px;
+    padding: 4px 8px;
 }
 .about {
     font-family: 'Playfair Display', serif;
-    font-weight: 200; /*دخن الخط*/
-    margin-bottom: 200px; /*لانو الهيدر ثابت وبصير الكلام تحتو*/
-    font-size: 1rem;
+    font-weight: 200;
+    margin-bottom: 250px;
+    font-size: 1.1rem;
 }
 main {
-    margin-top: 80px; /*عشان الهيدر ما يغطي عليها */
+    margin-top: 100px;
     display: flex;
-    height: 170vh; /*عشان طول الصفحة يصير اكبر من الصفحة*/
+    height: 180vh;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 .text2{
-    text-align:center;/*عشان الكتابة تصير بالنص*/
+    text-align:center;
 }
 .inputsection{
-    width:70%;/*عشان حقل الادخال يكبر معي */
+    width:75%;
     display:flex;
     align-items:center;
     justify-content:center;
 }
 .inputtext {
-    width: 80%; /*عشان حقل الادخال يصير بحجم السيكشن تبعو*/
+    width: 85%;
     border: none;
-    outline: none; /*عشان تشيل البوردر اللي بظهر لما تكبس عليه*/
-    padding: 10px;
-    border-radius: 20px;
+    outline: none;
+    padding: 12px;
+    border-radius: 25px;
     background-color: #E5E7EB;
     color:black;
     font-weight:100;
+    font-size:1em;
 }
 .buttonadd {
     color: black;
     background-color: #E5E7EB;
-    padding: 10px 15px; /*اذا عملتلو ويدث بدل بادنج رح يصير صغير كثير على الشاشات الصغيرة*/
+    padding: 12px 18px;
     border: none;
-    transition: 0.3s; /*عشان لما اعطيه هوفر اي تغير يصير بسلاسة مش مباشرة*/
-    border-radius:10px;
+    transition: 0.3s;
+    border-radius:12px;
     cursor:pointer;
 }
 .buttonadd:hover {
@@ -88,85 +89,42 @@ main {
 .state{
     display:flex;
 }
-    .state button {
-        color: black;
-        border: none;
-        padding: 4px 10px;
-        border-radius: 20px;
-        transition: 0.3s;
-        background-color: #E5E7EB;
-        margin-top: 40px;
-        margin-bottom:80px;
-        margin-right:15px;
-    }
+.state button {
+    color: black;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 22px;
+    transition: 0.3s;
+    background-color: #E5E7EB;
+    margin-top: 50px;
+    margin-bottom:90px;
+    margin-right:20px;
+    font-size:1em;
+}
 .state button:hover {
-     background-color: darkviolet;
+    background-color: darkviolet;
 }
 .workspace{
     width:100%;
-    height:40%;
+    height:45%;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
 }
 .checkboxsection{
-    width:40%;
-    height:50%;
+    width:45%;
+    height:55%;
 }
 h1 {
-    font-size: 4em;
+    font-size: 4.5em;
     text-align: center;
 }
 h2 {
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
 }
 h3 {
     text-align: center;
+    font-size: 1.2em;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*
-    
-    #box-sizing:border-box; 
-    عشان اذا اعطيت بادنج ما ينحسب زيادة عن 
-    الويدث والويدث يزيد هاي بتخلي البادنق ينحسب من ضمن الويدث
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-*/
